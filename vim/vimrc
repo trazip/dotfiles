@@ -1,0 +1,11 @@
+call plug#begin('~/.vim/plugged')
+
+" colorscheme
+Plug 'joshdick/onedark.vim'
+
+" Initialize plugin system
+call plug#end()
+
+syntax on
+colorscheme onedark
+set background=dark
