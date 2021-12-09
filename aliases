@@ -1,0 +1,17 @@
+# Get External IP / Internet Speed
+alias ip="curl https://ipinfo.io/json" # or /ip for plain-text ip
+alias speedtest="curl -s https://raw.githubusercontent.com/sivel/speedtest-cli/master/speedtest.py | python -"
+
+# Quickly serve the current directory as HTTP
+alias serve='ruby -run -e httpd . -p 8000' # Or python -m SimpleHTTPServer :)
+
+# Filesystem aliases
+alias ..='cd ..'
+alias ...='cd ../..'
+alias ....='cd ../../..'
+alias .....='cd ../../../..'
+
+# Shortcut for navigating between
+alias pj='cd ~/code/trazip/projects'
+alias df='cd ~/code/trazip/dotfiles'
+
