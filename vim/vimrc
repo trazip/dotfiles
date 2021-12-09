@@ -1,3 +1,6 @@
+" ===================== "
+"        Plugins
+" ===================== "
 call plug#begin('~/.vim/plugged')
 
 " colorscheme
@@ -6,6 +9,14 @@ Plug 'joshdick/onedark.vim'
 " Initialize plugin system
 call plug#end()
 
+
+"Enable syntax highlighting
 syntax on
+
+"Enable onedark as theme
 colorscheme onedark
 set background=dark
+
+set number
+
+imap jj <esc>
