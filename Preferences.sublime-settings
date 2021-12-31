@@ -1,0 +1,18 @@
+{
+	"ignored_packages":
+	[
+		"A File Icon",
+		"AdvancedNewFile",
+		"All Autocomplete",
+		"Babel",
+		"BracketHighlighter",
+		"Color Highlight",
+		"Emmet",
+		"ERB Snippets",
+		"Git",
+		"Latest Migration",
+		"MagicPython",
+		"SublimeLinter-rubocop",
+		"Vintage",
+	],
+}

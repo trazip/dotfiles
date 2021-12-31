@@ -9,14 +9,32 @@ Plug 'joshdick/onedark.vim'
 " Initialize plugin system
 call plug#end()
 
-
-"Enable syntax highlighting
-syntax on
+set t_Co=256
 
 "Enable onedark as theme
 colorscheme onedark
+
+"Enable syntax highlighting
+if (&t_Co > 2 || has("gui_running")) && !exists("syntax_on")
+	syntax on
+endif
+
+if ( has("autocmd") && !has("gui_running"))
+	augroup colors
+		autocmd!
+		autocmd ColorScheme * highlight Normal ctermbg=NONE guibg=NONE
+	augroup END
+endif
 set background=dark
 
+set tabstop=2
+set shiftwidth=2
+
 set number
+set relativenumber
+set numberwidth=5
 
 imap jj <esc>
+
+hi Comment ctermfg=246
+hi LineNr ctermfg=242
