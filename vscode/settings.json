@@ -3,10 +3,14 @@
     "editor.fontSize": 14,
     "editor.tabSize": 2,
     "emmet.includeLanguages": {
-        "javascript": "javascriptreact"
+        "javascript": "javascriptreact",
+        "erb": "html",
+        "ruby": "html",
     },
     "editor.bracketPairColorization.enabled": true,
     "[html]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
-    }
+    },
+    "diffEditor.ignoreTrimWhitespace": false,
+    "explorer.compactFolders": false
 }
