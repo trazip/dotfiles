@@ -1,20 +1,5 @@
+
 {
-	"ignored_packages":
-	[
-		"A File Icon",
-		"AdvancedNewFile",
-		"All Autocomplete",
-		"Babel",
-		"BracketHighlighter",
-		"Color Highlight",
-		"Emmet",
-		"ERB Snippets",
-		"Git",
-		"Latest Migration",
-		"MagicPython",
-		"SublimeLinter-rubocop",
-		"Vintage",
-	],
 	"color_scheme": "Packages/Color Scheme - Default/Monokai.sublime-color-scheme",
 	"font_size": 15,
 	"tab_size": 2,

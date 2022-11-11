@@ -1,16 +1,39 @@
 {
-    "workbench.colorTheme": "Cobalt2",
-    "editor.fontSize": 14,
-    "editor.tabSize": 2,
-    "emmet.includeLanguages": {
-        "javascript": "javascriptreact",
-        "erb": "html",
-        "ruby": "html",
-    },
-    "editor.bracketPairColorization.enabled": true,
-    "[html]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "diffEditor.ignoreTrimWhitespace": false,
-    "explorer.compactFolders": false
+  "editor.fontSize": 14,
+  "editor.tabSize": 2,
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+    "erb": "html",
+    "ruby": "html"
+  },
+  "editor.bracketPairColorization.enabled": true,
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "diffEditor.ignoreTrimWhitespace": false,
+  "explorer.compactFolders": false,
+  "editor.inlineSuggest.enabled": true,
+  "github.copilot.enable": {
+    "*": true,
+    "yaml": false,
+    "plaintext": true,
+    "markdown": false,
+    "javascript": true,
+    "ruby": true
+  },
+  "editor.minimap.enabled": false,
+  "editor.formatOnSave": true,
+  "[javascript]": {
+    "editor.formatOnSave": false
+  },
+  "[javascriptreact]": {
+    "editor.formatOnSave": false
+  },
+  // show eslint icon at bottom toolbar
+  "eslint.alwaysShowStatus": true,
+  // tell the ESLint plugin to run on save
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true
+  },
+  "window.zoomLevel": -1
 }
